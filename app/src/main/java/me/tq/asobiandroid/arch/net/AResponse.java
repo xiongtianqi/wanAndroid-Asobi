@@ -2,6 +2,8 @@ package me.tq.asobiandroid.arch.net;
 
 public class AResponse<T> {
 
+    public static final int CODE_SUCCESS = 0;
+
     private int errorCode;
     private String errorMessage;
     private T data;
